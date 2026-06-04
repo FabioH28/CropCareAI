@@ -53,8 +53,6 @@ Unified model: **99.44%** accuracy / 99.36% macro-F1 over 27 classes — on par 
 
 ### Classical vs. a foundation model (SAM)
 
-![SAM vs classical leaf segmentation](ml/plant/artifacts/reports/sam_vs_classical/00_montage_sam_vs_classical.png)
-
 The hand-built leaf segmentation agrees with **Segment Anything (SAM)** at **mean IoU 0.67 / Dice 0.77**. SAM is also deployed in the live pipeline to isolate the leaf on cluttered green-on-green field scenes; all lesion segmentation, consensus, and severity stay classical and from scratch. Reproducible via [scripts/compare_sam_vs_classical.py](scripts/compare_sam_vs_classical.py).
 
 ## What's inside (engineered inference stack)
