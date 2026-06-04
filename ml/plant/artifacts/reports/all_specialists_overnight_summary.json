@@ -1,0 +1,37 @@
+﻿[
+    {
+        "Crop":  "tomato",
+        "Status":  "ok",
+        "Elapsed":  "112:27",
+        "FieldAccuracy":  "55.07%",
+        "ControlledAccuracy":  "97.63%"
+    },
+    {
+        "Crop":  "grape",
+        "Status":  "ok",
+        "Elapsed":  "21:57",
+        "FieldAccuracy":  "90.00%",
+        "ControlledAccuracy":  "98.53%"
+    },
+    {
+        "Crop":  "corn",
+        "Status":  "ok",
+        "Elapsed":  "20:56",
+        "FieldAccuracy":  "69.23%",
+        "ControlledAccuracy":  "90.67%"
+    },
+    {
+        "Crop":  "pepper",
+        "Status":  "ok",
+        "Elapsed":  "09:10",
+        "FieldAccuracy":  "88.24%",
+        "ControlledAccuracy":  "98.39%"
+    },
+    {
+        "Crop":  "potato",
+        "Status":  "ok",
+        "Elapsed":  "11:58",
+        "FieldAccuracy":  "37.50%",
+        "ControlledAccuracy":  "95.83%"
+    }
+]

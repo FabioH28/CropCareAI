@@ -1,0 +1,38 @@
+{
+  "models": [
+    "tf_efficientnetv2_s",
+    "resnet50",
+    "efficientnet_b3",
+    "efficientnet_b0",
+    "mobilenetv3_large_100"
+  ],
+  "search_strategy": "coarse_to_fine",
+  "shortlist_size": 2,
+  "screen_overrides": {
+    "image_size": 256,
+    "epochs_stage1": 3,
+    "epochs_stage2": 2,
+    "early_stopping_patience": 1
+  },
+  "image_size": 320,
+  "batch_size": 4,
+  "epochs_stage1": 10,
+  "epochs_stage2": 12,
+  "learning_rate_stage1": 0.00025,
+  "learning_rate_stage2": 0.00008,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "seed": 42,
+  "confidence_threshold": 0.65,
+  "grad_accumulation_steps": 4,
+  "early_stopping_patience": 4,
+  "input_mode": "leaf_isolated",
+  "augmentation_profile": "field_heavy",
+  "roi_cache_dir": "ml/plant/artifacts/roi_cache/leaf_isolated",
+  "field_source_boost": 4.0,
+  "stage2_controlled_fraction": 0.08,
+  "loss_name": "focal",
+  "focal_gamma": 1.75,
+  "tag": "field_leaf_first_smart_search",
+  "promote_best": true
+}

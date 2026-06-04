@@ -1,0 +1,215 @@
+{
+  "output_name": "pepper_specialist",
+  "checkpoint_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\checkpoints\\pepper_specialist.pt",
+  "production_model_path": null,
+  "device": "cuda",
+  "controlled_test": {
+    "accuracy": 0.9838709677419355,
+    "macro_f1": 0.9831875805030168,
+    "classification_report": {
+      "pepper__bacterial_spot": {
+        "precision": 0.9897959183673469,
+        "recall": 0.97,
+        "f1-score": 0.9797979797979798,
+        "support": 100.0
+      },
+      "pepper__healthy": {
+        "precision": 0.98,
+        "recall": 0.9932432432432432,
+        "f1-score": 0.9865771812080537,
+        "support": 148.0
+      },
+      "accuracy": 0.9838709677419355,
+      "macro avg": {
+        "precision": 0.9848979591836735,
+        "recall": 0.9816216216216216,
+        "f1-score": 0.9831875805030168,
+        "support": 248.0
+      },
+      "weighted avg": {
+        "precision": 0.9839499670836076,
+        "recall": 0.9838709677419355,
+        "f1-score": 0.9838436322523788,
+        "support": 248.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        97,
+        3
+      ],
+      [
+        1,
+        147
+      ]
+    ],
+    "loss": 0.027181665938601777
+  },
+  "field_test": {
+    "accuracy": 0.8823529411764706,
+    "macro_f1": 0.8819444444444444,
+    "classification_report": {
+      "pepper__bacterial_spot": {
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.875,
+        "support": 9.0
+      },
+      "pepper__healthy": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 8.0
+      },
+      "accuracy": 0.8823529411764706,
+      "macro avg": {
+        "precision": 0.9,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.8819444444444444,
+        "support": 17.0
+      },
+      "weighted avg": {
+        "precision": 0.9058823529411765,
+        "recall": 0.8823529411764706,
+        "f1-score": 0.8815359477124183,
+        "support": 17.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        7,
+        2
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "loss": 0.07356231371337973
+  },
+  "history": [
+    {
+      "stage": "stage1_controlled",
+      "epoch": 1,
+      "train_loss": 1.043870708039266,
+      "val_loss": 0.08216144921108835,
+      "val_accuracy": 0.9758064516129032,
+      "val_macro_f1": 0.9747813707545252
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 2,
+      "train_loss": 0.22484297313901783,
+      "val_loss": 0.03607968235856039,
+      "val_accuracy": 0.9811827956989247,
+      "val_macro_f1": 0.9805123369479805
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 3,
+      "train_loss": 0.07371793266722942,
+      "val_loss": 0.019625800502669256,
+      "val_accuracy": 0.989247311827957,
+      "val_macro_f1": 0.9888525965658805
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 4,
+      "train_loss": 0.06836924383466457,
+      "val_loss": 0.04497143592137055,
+      "val_accuracy": 0.9838709677419355,
+      "val_macro_f1": 0.9833467633628794
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 5,
+      "train_loss": 0.03289821359428206,
+      "val_loss": 0.2575973411790828,
+      "val_accuracy": 0.9139784946236559,
+      "val_macro_f1": 0.912972277459352
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 6,
+      "train_loss": 0.030201239364132198,
+      "val_loss": 0.0258105888464337,
+      "val_accuracy": 0.9865591397849462,
+      "val_macro_f1": 0.986108517868479
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 7,
+      "train_loss": 0.0027344521842286524,
+      "val_loss": 0.06869266440476234,
+      "val_accuracy": 0.9731182795698925,
+      "val_macro_f1": 0.9723502304147466
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 1,
+      "train_loss": 1.1428580761690363,
+      "val_loss": 0.11102496406420313,
+      "val_accuracy": 0.967741935483871,
+      "val_macro_f1": 0.9660944857967493
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 2,
+      "train_loss": 0.6088176771702488,
+      "val_loss": 0.1463555945686851,
+      "val_accuracy": 0.9704301075268817,
+      "val_macro_f1": 0.9689583760041874
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 3,
+      "train_loss": 0.4790108600657779,
+      "val_loss": 0.21310805199681235,
+      "val_accuracy": 0.9435483870967742,
+      "val_macro_f1": 0.9397849462365591
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 4,
+      "train_loss": 0.49086480126614046,
+      "val_loss": 0.11347767076545172,
+      "val_accuracy": 0.978494623655914,
+      "val_macro_f1": 0.9774518123408897
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 5,
+      "train_loss": 0.27950412580033396,
+      "val_loss": 0.047279876146559395,
+      "val_accuracy": 0.9811827956989247,
+      "val_macro_f1": 0.9803404929976218
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 6,
+      "train_loss": 0.2653593476160527,
+      "val_loss": 0.07018791089636973,
+      "val_accuracy": 0.9731182795698925,
+      "val_macro_f1": 0.9718147654261122
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 7,
+      "train_loss": 0.22775381895131616,
+      "val_loss": 0.06009057226178902,
+      "val_accuracy": 0.9811827956989247,
+      "val_macro_f1": 0.9802940753577564
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 8,
+      "train_loss": 0.19148083063056645,
+      "val_loss": 0.04618286720813871,
+      "val_accuracy": 0.978494623655914,
+      "val_macro_f1": 0.9774518123408897
+    }
+  ],
+  "summary_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\pepper_specialist_training_summary.json",
+  "controlled_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\pepper_specialist_controlled_test_metrics.json",
+  "field_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\pepper_specialist_field_test_metrics.json"
+}

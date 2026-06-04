@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.9852579852579852,
+  "macro_f1": 0.9871674903328636,
+  "classification_report": {
+    "grape__black_rot": {
+      "precision": 0.991304347826087,
+      "recall": 0.9661016949152542,
+      "f1-score": 0.9785407725321889,
+      "support": 118.0
+    },
+    "grape__esca_black_measles": {
+      "precision": 1.0,
+      "recall": 0.9856115107913669,
+      "f1-score": 0.9927536231884058,
+      "support": 139.0
+    },
+    "grape__healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 42.0
+    },
+    "grape__leaf_blight": {
+      "precision": 0.9557522123893806,
+      "recall": 1.0,
+      "f1-score": 0.9773755656108597,
+      "support": 108.0
+    },
+    "accuracy": 0.9852579852579852,
+    "macro avg": {
+      "precision": 0.9867641400538669,
+      "recall": 0.9879283014266553,
+      "f1-score": 0.9871674903328636,
+      "support": 407.0
+    },
+    "weighted avg": {
+      "precision": 0.9857374741560967,
+      "recall": 0.9852579852579852,
+      "f1-score": 0.9853000635576401,
+      "support": 407.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      114,
+      0,
+      0,
+      4
+    ],
+    [
+      1,
+      137,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      42,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      108
+    ]
+  ],
+  "loss": 0.007211587387426149
+}

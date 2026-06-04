@@ -1,0 +1,202 @@
+{
+  "accuracy": 0.5072463768115942,
+  "macro_f1": 0.4935366491094045,
+  "classification_report": {
+    "tomato__bacterial_spot": {
+      "precision": 0.3333333333333333,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3333333333333333,
+      "support": 9.0
+    },
+    "tomato__early_blight": {
+      "precision": 0.46153846153846156,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5454545454545454,
+      "support": 9.0
+    },
+    "tomato__healthy": {
+      "precision": 0.3333333333333333,
+      "recall": 0.375,
+      "f1-score": 0.35294117647058826,
+      "support": 8.0
+    },
+    "tomato__late_blight": {
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1-score": 0.8421052631578947,
+      "support": 10.0
+    },
+    "tomato__leaf_mold": {
+      "precision": 0.25,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.2857142857142857,
+      "support": 6.0
+    },
+    "tomato__mosaic_virus": {
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1-score": 0.2857142857142857,
+      "support": 10.0
+    },
+    "tomato__septoria_leaf_spot": {
+      "precision": 0.6363636363636364,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.6363636363636364,
+      "support": 11.0
+    },
+    "tomato__spider_mites": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "tomato__target_spot": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "tomato__yellow_leaf_curl_virus": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6666666666666666,
+      "support": 6.0
+    },
+    "accuracy": 0.5072463768115942,
+    "macro avg": {
+      "precision": 0.407012432012432,
+      "recall": 0.4011363636363637,
+      "f1-score": 0.3948293192875236,
+      "support": 69.0
+    },
+    "weighted avg": {
+      "precision": 0.5247739378174161,
+      "recall": 0.5072463768115942,
+      "f1-score": 0.5032623409255527,
+      "support": 69.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      6,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      3,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      3,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "loss": 1.311184419238049
+}

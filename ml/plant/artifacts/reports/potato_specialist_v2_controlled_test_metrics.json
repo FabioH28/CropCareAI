@@ -1,0 +1,55 @@
+{
+  "accuracy": 0.9398148148148148,
+  "macro_f1": 0.9473828175170635,
+  "classification_report": {
+    "potato__early_blight": {
+      "precision": 0.8938053097345132,
+      "recall": 1.0,
+      "f1-score": 0.9439252336448598,
+      "support": 101.0
+    },
+    "potato__healthy": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1-score": 0.967741935483871,
+      "support": 15.0
+    },
+    "potato__late_blight": {
+      "precision": 1.0,
+      "recall": 0.87,
+      "f1-score": 0.93048128342246,
+      "support": 100.0
+    },
+    "accuracy": 0.9398148148148148,
+    "macro avg": {
+      "precision": 0.943768436578171,
+      "recall": 0.9566666666666667,
+      "f1-score": 0.9473828175170635,
+      "support": 216.0
+    },
+    "weighted avg": {
+      "precision": 0.946003871681416,
+      "recall": 0.9398148148148148,
+      "f1-score": 0.9393551202436802,
+      "support": 216.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      101,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0
+    ],
+    [
+      12,
+      1,
+      87
+    ]
+  ],
+  "loss": 0.062205780386632464
+}

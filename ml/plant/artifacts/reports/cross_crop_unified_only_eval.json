@@ -1,0 +1,21 @@
+{
+  "total": 177,
+  "correct": 43,
+  "accuracy": 0.24293785310734464,
+  "per_crop_total": {
+    "apple": 29,
+    "pepper": 17,
+    "corn": 26,
+    "grape": 20,
+    "potato": 16,
+    "tomato": 69
+  },
+  "per_crop_correct": {
+    "apple": 14,
+    "pepper": 3,
+    "corn": 15,
+    "grape": 4,
+    "potato": 1,
+    "tomato": 6
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.9067357512953368,
+  "macro_f1": 0.8709632402565866,
+  "classification_report": {
+    "corn__common_rust": {
+      "precision": 0.9821428571428571,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9482758620689655,
+      "support": 120.0
+    },
+    "corn__gray_leaf_spot": {
+      "precision": 0.7111111111111111,
+      "recall": 0.6274509803921569,
+      "f1-score": 0.6666666666666666,
+      "support": 51.0
+    },
+    "corn__healthy": {
+      "precision": 1.0,
+      "recall": 0.9913793103448276,
+      "f1-score": 0.9956709956709957,
+      "support": 116.0
+    },
+    "corn__northern_leaf_blight": {
+      "precision": 0.8157894736842105,
+      "recall": 0.9393939393939394,
+      "f1-score": 0.8732394366197183,
+      "support": 99.0
+    },
+    "accuracy": 0.9067357512953368,
+    "macro avg": {
+      "precision": 0.8772608604845447,
+      "recall": 0.8687227241993976,
+      "f1-score": 0.8709632402565866,
+      "support": 386.0
+    },
+    "weighted avg": {
+      "precision": 0.9090335943485657,
+      "recall": 0.9067357512953368,
+      "f1-score": 0.9060664330866931,
+      "support": 386.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      110,
+      7,
+      0,
+      3
+    ],
+    [
+      1,
+      32,
+      0,
+      18
+    ],
+    [
+      1,
+      0,
+      115,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      93
+    ]
+  ],
+  "loss": 0.07538997354331993
+}

@@ -1,0 +1,51 @@
+{
+  "mode": "agreement_only",
+  "note": "Agreement metrics measure inter-method CONSISTENCY, not accuracy. PlantDoc has no ground-truth lesion masks; pass --gt-dir with hand-labeled masks for true IoU/Dice.",
+  "n_images": 24,
+  "core_consensus_methods": [
+    "threshold",
+    "clustering",
+    "graph_cut"
+  ],
+  "mean_coverage_percent_of_leaf": {
+    "threshold": 0.0,
+    "region_grow": 5.526,
+    "split_merge": 22.1612,
+    "clustering": 27.4457,
+    "superpixels": 22.5252,
+    "graph_cut": 52.2247
+  },
+  "mean_dice_vs_consensus": {
+    "threshold": 0.0,
+    "region_grow": 0.0665,
+    "split_merge": 0.3466,
+    "clustering": 0.8992,
+    "superpixels": 0.3598,
+    "graph_cut": 0.6295
+  },
+  "mean_iou_vs_consensus": {
+    "threshold": 0.0,
+    "region_grow": 0.0467,
+    "split_merge": 0.2436,
+    "clustering": 0.8391,
+    "superpixels": 0.2526,
+    "graph_cut": 0.4816
+  },
+  "mean_pairwise_dice": {
+    "threshold|region_grow": 0.0,
+    "threshold|split_merge": 0.0833,
+    "threshold|clustering": 0.0,
+    "threshold|superpixels": 0.1667,
+    "threshold|graph_cut": 0.0,
+    "region_grow|split_merge": 0.1893,
+    "region_grow|clustering": 0.0665,
+    "region_grow|superpixels": 0.1747,
+    "region_grow|graph_cut": 0.1007,
+    "split_merge|clustering": 0.3257,
+    "split_merge|superpixels": 0.6603,
+    "split_merge|graph_cut": 0.4664,
+    "clustering|superpixels": 0.3461,
+    "clustering|graph_cut": 0.5814,
+    "superpixels|graph_cut": 0.4671
+  }
+}

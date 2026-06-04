@@ -1,0 +1,559 @@
+{
+  "output_name": "tomato_specialist_v2",
+  "checkpoint_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\checkpoints\\tomato_specialist_v2.pt",
+  "production_model_path": null,
+  "device": "cuda",
+  "controlled_test": {
+    "accuracy": 0.9752202643171806,
+    "macro_f1": 0.9699444985880824,
+    "classification_report": {
+      "tomato__bacterial_spot": {
+        "precision": 0.9634703196347032,
+        "recall": 0.9906103286384976,
+        "f1-score": 0.9768518518518519,
+        "support": 213.0
+      },
+      "tomato__early_blight": {
+        "precision": 0.8899082568807339,
+        "recall": 0.97,
+        "f1-score": 0.9282296650717703,
+        "support": 100.0
+      },
+      "tomato__healthy": {
+        "precision": 0.9636363636363636,
+        "recall": 1.0,
+        "f1-score": 0.9814814814814815,
+        "support": 159.0
+      },
+      "tomato__late_blight": {
+        "precision": 0.9946524064171123,
+        "recall": 0.9738219895287958,
+        "f1-score": 0.9841269841269841,
+        "support": 191.0
+      },
+      "tomato__leaf_mold": {
+        "precision": 0.9791666666666666,
+        "recall": 0.9894736842105263,
+        "f1-score": 0.9842931937172775,
+        "support": 95.0
+      },
+      "tomato__mosaic_virus": {
+        "precision": 0.9487179487179487,
+        "recall": 1.0,
+        "f1-score": 0.9736842105263158,
+        "support": 37.0
+      },
+      "tomato__septoria_leaf_spot": {
+        "precision": 0.9939024390243902,
+        "recall": 0.9209039548022598,
+        "f1-score": 0.9560117302052786,
+        "support": 177.0
+      },
+      "tomato__spider_mites": {
+        "precision": 0.9385474860335196,
+        "recall": 1.0,
+        "f1-score": 0.968299711815562,
+        "support": 168.0
+      },
+      "tomato__target_spot": {
+        "precision": 0.9848484848484849,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9558823529411765,
+        "support": 140.0
+      },
+      "tomato__yellow_leaf_curl_virus": {
+        "precision": 1.0,
+        "recall": 0.9813432835820896,
+        "f1-score": 0.9905838041431262,
+        "support": 536.0
+      },
+      "accuracy": 0.9752202643171806,
+      "macro avg": {
+        "precision": 0.9656850371859923,
+        "recall": 0.9754724669333598,
+        "f1-score": 0.9699444985880824,
+        "support": 1816.0
+      },
+      "weighted avg": {
+        "precision": 0.9763247191022848,
+        "recall": 0.9752202643171806,
+        "f1-score": 0.9752837367466272,
+        "support": 1816.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        211,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        97,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        159,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        186,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        94,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        37,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        10,
+        0,
+        0,
+        1,
+        0,
+        163,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        168,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        7,
+        130,
+        0
+      ],
+      [
+        5,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3,
+        0,
+        526
+      ]
+    ],
+    "loss": 0.03764453092779383
+  },
+  "field_test": {
+    "accuracy": 0.5072463768115942,
+    "macro_f1": 0.4935366491094045,
+    "classification_report": {
+      "tomato__bacterial_spot": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.3333333333333333,
+        "support": 9.0
+      },
+      "tomato__early_blight": {
+        "precision": 0.46153846153846156,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5454545454545454,
+        "support": 9.0
+      },
+      "tomato__healthy": {
+        "precision": 0.3333333333333333,
+        "recall": 0.375,
+        "f1-score": 0.35294117647058826,
+        "support": 8.0
+      },
+      "tomato__late_blight": {
+        "precision": 0.8888888888888888,
+        "recall": 0.8,
+        "f1-score": 0.8421052631578947,
+        "support": 10.0
+      },
+      "tomato__leaf_mold": {
+        "precision": 0.25,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.2857142857142857,
+        "support": 6.0
+      },
+      "tomato__mosaic_virus": {
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1-score": 0.2857142857142857,
+        "support": 10.0
+      },
+      "tomato__septoria_leaf_spot": {
+        "precision": 0.6363636363636364,
+        "recall": 0.6363636363636364,
+        "f1-score": 0.6363636363636364,
+        "support": 11.0
+      },
+      "tomato__spider_mites": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "tomato__target_spot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "tomato__yellow_leaf_curl_virus": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "accuracy": 0.5072463768115942,
+      "macro avg": {
+        "precision": 0.407012432012432,
+        "recall": 0.4011363636363637,
+        "f1-score": 0.3948293192875236,
+        "support": 69.0
+      },
+      "weighted avg": {
+        "precision": 0.5247739378174161,
+        "recall": 0.5072463768115942,
+        "f1-score": 0.5032623409255527,
+        "support": 69.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        6,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        3,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        3,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        4
+      ]
+    ],
+    "loss": 1.311184419238049
+  },
+  "history": [
+    {
+      "stage": "stage1_controlled",
+      "epoch": 1,
+      "train_loss": 0.54161050096943,
+      "val_loss": 0.05066584912756571,
+      "val_accuracy": 0.9618208516886931,
+      "val_macro_f1": 0.9603952953041794
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 2,
+      "train_loss": 0.08872452721942554,
+      "val_loss": 0.06835580233608336,
+      "val_accuracy": 0.9489720998531571,
+      "val_macro_f1": 0.937336653877942
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 3,
+      "train_loss": 0.0738252636735731,
+      "val_loss": 0.019647669126855196,
+      "val_accuracy": 0.9761380323054332,
+      "val_macro_f1": 0.9773892856581409
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 4,
+      "train_loss": 0.04133936420793069,
+      "val_loss": 0.014410633356155847,
+      "val_accuracy": 0.9834801762114538,
+      "val_macro_f1": 0.9824109717437395
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 5,
+      "train_loss": 0.018266665536019605,
+      "val_loss": 0.025974226639774833,
+      "val_accuracy": 0.9720998531571219,
+      "val_macro_f1": 0.9717133689518096
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 6,
+      "train_loss": 0.012899368841643557,
+      "val_loss": 0.010751134268566005,
+      "val_accuracy": 0.9864170337738619,
+      "val_macro_f1": 0.9870716951520265
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 7,
+      "train_loss": 0.007550410841005827,
+      "val_loss": 0.006669650993116974,
+      "val_accuracy": 0.9952276064610867,
+      "val_macro_f1": 0.995434835968594
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 8,
+      "train_loss": 0.008089075835738382,
+      "val_loss": 0.005387372977054429,
+      "val_accuracy": 0.9944933920704846,
+      "val_macro_f1": 0.99487272620367
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 1,
+      "train_loss": 1.1573188717730487,
+      "val_loss": 1.1073104914496927,
+      "val_accuracy": 0.47058823529411764,
+      "val_macro_f1": 0.34471882127194803
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 2,
+      "train_loss": 0.5032345207557511,
+      "val_loss": 0.9255527113290394,
+      "val_accuracy": 0.5147058823529411,
+      "val_macro_f1": 0.41421537398780534
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 3,
+      "train_loss": 0.34649346366634093,
+      "val_loss": 0.9307642364326645,
+      "val_accuracy": 0.5808823529411765,
+      "val_macro_f1": 0.5077358153756697
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 4,
+      "train_loss": 0.26440739222459386,
+      "val_loss": 1.0459248682155329,
+      "val_accuracy": 0.5661764705882353,
+      "val_macro_f1": 0.5887243286605248
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 5,
+      "train_loss": 0.1829708989335524,
+      "val_loss": 1.1080673455315477,
+      "val_accuracy": 0.5808823529411765,
+      "val_macro_f1": 0.5746389545302178
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 6,
+      "train_loss": 0.16303761790574425,
+      "val_loss": 1.1087417063467644,
+      "val_accuracy": 0.5588235294117647,
+      "val_macro_f1": 0.5747535803263357
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 7,
+      "train_loss": 0.11759626806660409,
+      "val_loss": 1.0062770227737285,
+      "val_accuracy": 0.5808823529411765,
+      "val_macro_f1": 0.5975730186411349
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 8,
+      "train_loss": 0.1320126680028567,
+      "val_loss": 1.0396171312998324,
+      "val_accuracy": 0.5808823529411765,
+      "val_macro_f1": 0.5411372180451128
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 9,
+      "train_loss": 0.13213671945083394,
+      "val_loss": 0.9066769373329246,
+      "val_accuracy": 0.6323529411764706,
+      "val_macro_f1": 0.6532252826083529
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 10,
+      "train_loss": 0.1058603927762798,
+      "val_loss": 0.9678661862716955,
+      "val_accuracy": 0.625,
+      "val_macro_f1": 0.6400052999766055
+    }
+  ],
+  "summary_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\tomato_specialist_v2_training_summary.json",
+  "controlled_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\tomato_specialist_v2_controlled_test_metrics.json",
+  "field_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\tomato_specialist_v2_field_test_metrics.json"
+}

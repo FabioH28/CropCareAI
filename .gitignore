@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+.venv/
+backend/.venv/
+ml/plant/.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Secrets / local env  (commit .env.example instead, never the real .env)
+.env
+*.env
+!*.env.example
+
+# Datasets (~18 GB — not tracked; see README / docs for dataset sources)
+datasets/
+
+# Held-out test-image copies + generated CV results (regenerate via
+# scripts/run_cv_on_test_images.py — do not redistribute dataset images)
+test_images/
+test_images_results/
+
+# Local DB runtime data (XAMPP / MySQL data dir) — migrations/ and seeds/ ARE tracked
+database/xampp-local/
+
+# Large ML binaries — NOT tracked (too big for GitHub).
+# NOTE: ml/plant/artifacts/reports/ IS tracked on purpose: it holds the
+# README figures and the metric JSONs that make the numbers reproducible.
+ml/plant/artifacts/checkpoints/
+ml/plant/artifacts/production/
+ml/plant/artifacts/roi_cache/
+ml/plant/artifacts/training_logs/
+ml/plant/artifacts/sam/
+
+# Backend / frontend runtime
+backend/storage/
+backend/run_logs/
+frontend/run_logs/
+tmp/
+demo_outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Regenerable dataset manifest (local paths; rebuild via ml/plant/dl/prepare_dataset.py)
+ml/plant/artifacts/dataset_manifest.csv

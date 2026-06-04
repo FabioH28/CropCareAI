@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.7586206896551724,
+  "macro_f1": 0.7507575757575758,
+  "classification_report": {
+    "apple__apple_scab": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8,
+      "f1-score": 0.7272727272727273,
+      "support": 10.0
+    },
+    "apple__black_rot": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "apple__cedar_apple_rust": {
+      "precision": 0.8333333333333334,
+      "recall": 0.5,
+      "f1-score": 0.625,
+      "support": 10.0
+    },
+    "apple__healthy": {
+      "precision": 0.8181818181818182,
+      "recall": 1.0,
+      "f1-score": 0.9,
+      "support": 9.0
+    },
+    "accuracy": 0.7586206896551724,
+    "macro avg": {
+      "precision": 0.5795454545454546,
+      "recall": 0.575,
+      "f1-score": 0.5630681818181819,
+      "support": 29.0
+    },
+    "weighted avg": {
+      "precision": 0.7711598746081505,
+      "recall": 0.7586206896551724,
+      "f1-score": 0.7456112852664577,
+      "support": 29.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      0,
+      5,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      9
+    ]
+  ],
+  "loss": 0.4829496529569512
+}

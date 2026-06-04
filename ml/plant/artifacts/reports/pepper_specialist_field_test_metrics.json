@@ -1,0 +1,42 @@
+{
+  "accuracy": 0.8823529411764706,
+  "macro_f1": 0.8819444444444444,
+  "classification_report": {
+    "pepper__bacterial_spot": {
+      "precision": 1.0,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.875,
+      "support": 9.0
+    },
+    "pepper__healthy": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 8.0
+    },
+    "accuracy": 0.8823529411764706,
+    "macro avg": {
+      "precision": 0.9,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8819444444444444,
+      "support": 17.0
+    },
+    "weighted avg": {
+      "precision": 0.9058823529411765,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.8815359477124183,
+      "support": 17.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      7,
+      2
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "loss": 0.07356231371337973
+}

@@ -1,0 +1,71 @@
+{
+  "method_classical": "hand-built consensus leaf mask (ml.plant.cv.segmentation.build_leaf_mask)",
+  "method_learned": "Segment Anything (SAM) ViT-B, box-prompted with the classical leaf bbox",
+  "comparison_task": "leaf-object segmentation (zero-shot-fair task)",
+  "num_images": 6,
+  "mean_iou": 0.6717,
+  "mean_dice": 0.7673,
+  "per_image": [
+    {
+      "image": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+      "image_name": "052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+      "category": "Apple Scab Leaf",
+      "classical_leaf_pixels": 94398,
+      "sam_leaf_pixels": 85397,
+      "sam_score": 0.9702048301696777,
+      "iou": 0.7539,
+      "dice": 0.8597
+    },
+    {
+      "image": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\039b47d574bc4bb8a14259a1cd96a741.jpg",
+      "image_name": "039b47d574bc4bb8a14259a1cd96a741.jpg",
+      "category": "Tomato Early blight leaf",
+      "classical_leaf_pixels": 49553,
+      "sam_leaf_pixels": 62315,
+      "sam_score": 0.9866999387741089,
+      "iou": 0.7719,
+      "dice": 0.8713
+    },
+    {
+      "image": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\datasets\\plant\\plantdoc\\test\\grape leaf black rot\\03gb.jpg",
+      "image_name": "03gb.jpg",
+      "category": "grape leaf black rot",
+      "classical_leaf_pixels": 133470,
+      "sam_leaf_pixels": 17179,
+      "sam_score": 0.5932579636573792,
+      "iou": 0.1223,
+      "dice": 0.2179
+    },
+    {
+      "image": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\datasets\\plant\\plantdoc\\test\\Corn leaf blight\\02c.jpg",
+      "image_name": "02c.jpg",
+      "category": "Corn leaf blight",
+      "classical_leaf_pixels": 217820,
+      "sam_leaf_pixels": 175465,
+      "sam_score": 0.9928612112998962,
+      "iou": 0.7907,
+      "dice": 0.8831
+    },
+    {
+      "image": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\3023.jpg",
+      "image_name": "3023.jpg",
+      "category": "Potato leaf early blight",
+      "classical_leaf_pixels": 710368,
+      "sam_leaf_pixels": 686927,
+      "sam_score": 0.8428415060043335,
+      "iou": 0.8167,
+      "dice": 0.8991
+    },
+    {
+      "image": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\00.jpg",
+      "image_name": "00.jpg",
+      "category": "Bell_pepper leaf spot",
+      "classical_leaf_pixels": 75785,
+      "sam_leaf_pixels": 67636,
+      "sam_score": 0.7290154695510864,
+      "iou": 0.7747,
+      "dice": 0.873
+    }
+  ],
+  "interpretation": "High agreement indicates the from-scratch classical leaf segmentation tracks a state-of-the-art foundation model closely. SAM is prompted with the classical pipeline's own leaf bounding box, so the score reflects mask-level agreement within a shared ROI, not an unconstrained head-to-head."
+}

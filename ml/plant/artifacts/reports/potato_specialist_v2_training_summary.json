@@ -1,0 +1,257 @@
+{
+  "output_name": "potato_specialist_v2",
+  "checkpoint_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\checkpoints\\potato_specialist_v2.pt",
+  "production_model_path": null,
+  "device": "cuda",
+  "controlled_test": {
+    "accuracy": 0.9398148148148148,
+    "macro_f1": 0.9473828175170635,
+    "classification_report": {
+      "potato__early_blight": {
+        "precision": 0.8938053097345132,
+        "recall": 1.0,
+        "f1-score": 0.9439252336448598,
+        "support": 101.0
+      },
+      "potato__healthy": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.967741935483871,
+        "support": 15.0
+      },
+      "potato__late_blight": {
+        "precision": 1.0,
+        "recall": 0.87,
+        "f1-score": 0.93048128342246,
+        "support": 100.0
+      },
+      "accuracy": 0.9398148148148148,
+      "macro avg": {
+        "precision": 0.943768436578171,
+        "recall": 0.9566666666666667,
+        "f1-score": 0.9473828175170635,
+        "support": 216.0
+      },
+      "weighted avg": {
+        "precision": 0.946003871681416,
+        "recall": 0.9398148148148148,
+        "f1-score": 0.9393551202436802,
+        "support": 216.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        101,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        0
+      ],
+      [
+        12,
+        1,
+        87
+      ]
+    ],
+    "loss": 0.062205780386632464
+  },
+  "field_test": {
+    "accuracy": 0.4375,
+    "macro_f1": 0.28774928774928776,
+    "classification_report": {
+      "potato__early_blight": {
+        "precision": 0.5,
+        "recall": 0.625,
+        "f1-score": 0.5555555555555556,
+        "support": 8.0
+      },
+      "potato__healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "potato__late_blight": {
+        "precision": 0.4,
+        "recall": 0.25,
+        "f1-score": 0.3076923076923077,
+        "support": 8.0
+      },
+      "accuracy": 0.4375,
+      "macro avg": {
+        "precision": 0.3,
+        "recall": 0.2916666666666667,
+        "f1-score": 0.28774928774928776,
+        "support": 16.0
+      },
+      "weighted avg": {
+        "precision": 0.45,
+        "recall": 0.4375,
+        "f1-score": 0.43162393162393164,
+        "support": 16.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        1,
+        2
+      ]
+    ],
+    "loss": 0.48375471867620945
+  },
+  "history": [
+    {
+      "stage": "stage1_controlled",
+      "epoch": 1,
+      "train_loss": 1.6144996380184689,
+      "val_loss": 0.18725820214984693,
+      "val_accuracy": 0.9380804953560371,
+      "val_macro_f1": 0.8958713703697144
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 2,
+      "train_loss": 0.2961892815645419,
+      "val_loss": 0.08044460572805784,
+      "val_accuracy": 0.9504643962848297,
+      "val_macro_f1": 0.9049691568264567
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 3,
+      "train_loss": 0.09875800273768726,
+      "val_loss": 0.02814511665448366,
+      "val_accuracy": 0.978328173374613,
+      "val_macro_f1": 0.9784192495302446
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 4,
+      "train_loss": 0.05951733413081345,
+      "val_loss": 0.023166361812397517,
+      "val_accuracy": 0.978328173374613,
+      "val_macro_f1": 0.9572190230758006
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 5,
+      "train_loss": 0.03617151239469125,
+      "val_loss": 0.013755444907363648,
+      "val_accuracy": 0.9969040247678018,
+      "val_macro_f1": 0.9977777530861455
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 6,
+      "train_loss": 0.13880322786244137,
+      "val_loss": 0.014908465653396024,
+      "val_accuracy": 0.9907120743034056,
+      "val_macro_f1": 0.9873332925326727
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 7,
+      "train_loss": 0.016315465264116407,
+      "val_loss": 0.013602195826587268,
+      "val_accuracy": 0.9969040247678018,
+      "val_macro_f1": 0.9977777530861455
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 8,
+      "train_loss": 0.026960305312332844,
+      "val_loss": 0.015145021793899807,
+      "val_accuracy": 0.9907120743034056,
+      "val_macro_f1": 0.9873332925326727
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 1,
+      "train_loss": 0.6084781092423924,
+      "val_loss": 0.7471823945709664,
+      "val_accuracy": 0.6341463414634146,
+      "val_macro_f1": 0.6261398176291793
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 2,
+      "train_loss": 0.32997741022410065,
+      "val_loss": 0.4222021106766855,
+      "val_accuracy": 0.6341463414634146,
+      "val_macro_f1": 0.6332737030411449
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 3,
+      "train_loss": 0.17149820331444085,
+      "val_loss": 0.31960913829687165,
+      "val_accuracy": 0.7317073170731707,
+      "val_macro_f1": 0.7210884353741496
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 4,
+      "train_loss": 0.15204417939366419,
+      "val_loss": 0.3455755839624056,
+      "val_accuracy": 0.6585365853658537,
+      "val_macro_f1": 0.6533816425120773
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 5,
+      "train_loss": 0.12155258804066907,
+      "val_loss": 0.32703745292454234,
+      "val_accuracy": 0.7317073170731707,
+      "val_macro_f1": 0.731067382230173
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 6,
+      "train_loss": 0.0848795947575216,
+      "val_loss": 0.37096842869025903,
+      "val_accuracy": 0.6097560975609756,
+      "val_macro_f1": 0.5900000000000001
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 7,
+      "train_loss": 0.07955173290751737,
+      "val_loss": 0.33873756847730496,
+      "val_accuracy": 0.5853658536585366,
+      "val_macro_f1": 0.5465191932335719
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 8,
+      "train_loss": 0.06780056442377626,
+      "val_loss": 0.36050174957731873,
+      "val_accuracy": 0.6585365853658537,
+      "val_macro_f1": 0.632051282051282
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 9,
+      "train_loss": 0.08654485607771145,
+      "val_loss": 0.3298176130870493,
+      "val_accuracy": 0.6341463414634146,
+      "val_macro_f1": 0.6110056925996206
+    }
+  ],
+  "summary_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\potato_specialist_v2_training_summary.json",
+  "controlled_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\potato_specialist_v2_controlled_test_metrics.json",
+  "field_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\potato_specialist_v2_field_test_metrics.json"
+}

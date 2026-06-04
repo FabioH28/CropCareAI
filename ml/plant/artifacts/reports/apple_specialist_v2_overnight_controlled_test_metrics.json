@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.9748427672955975,
+  "macro_f1": 0.9755464461720537,
+  "classification_report": {
+    "apple__apple_scab": {
+      "precision": 0.9836065573770492,
+      "recall": 0.9523809523809523,
+      "f1-score": 0.967741935483871,
+      "support": 63.0
+    },
+    "apple__black_rot": {
+      "precision": 0.9538461538461539,
+      "recall": 1.0,
+      "f1-score": 0.9763779527559056,
+      "support": 62.0
+    },
+    "apple__cedar_apple_rust": {
+      "precision": 0.9655172413793104,
+      "recall": 1.0,
+      "f1-score": 0.9824561403508771,
+      "support": 28.0
+    },
+    "apple__healthy": {
+      "precision": 0.9815950920245399,
+      "recall": 0.9696969696969697,
+      "f1-score": 0.975609756097561,
+      "support": 165.0
+    },
+    "accuracy": 0.9748427672955975,
+    "macro avg": {
+      "precision": 0.9711412611567634,
+      "recall": 0.9805194805194806,
+      "f1-score": 0.9755464461720537,
+      "support": 318.0
+    },
+    "weighted avg": {
+      "precision": 0.9751677597354886,
+      "recall": 0.9748427672955975,
+      "f1-score": 0.9748036373970823,
+      "support": 318.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      60,
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      62,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      28,
+      0
+    ],
+    [
+      1,
+      3,
+      1,
+      160
+    ]
+  ],
+  "loss": 0.023065983466463786
+}

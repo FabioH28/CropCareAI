@@ -1,0 +1,1633 @@
+{
+  "total": 177,
+  "correct": 104,
+  "accuracy": 0.5875706214689266,
+  "per_crop_total": {
+    "apple": 29,
+    "pepper": 17,
+    "corn": 26,
+    "grape": 20,
+    "potato": 16,
+    "tomato": 69
+  },
+  "per_crop_correct": {
+    "apple": 24,
+    "pepper": 12,
+    "corn": 18,
+    "grape": 18,
+    "potato": 4,
+    "tomato": 28
+  },
+  "route_counts": {
+    "ensemble_apple_specialist_plus_unified": 29,
+    "ensemble_grape_specialist_plus_unified": 20,
+    "ensemble_tomato_specialist_plus_unified": 48,
+    "ensemble_pepper_specialist_plus_unified": 17,
+    "ensemble_potato_specialist_plus_unified": 16,
+    "ensemble_corn_specialist_plus_unified": 26,
+    "low_confidence_below_0.50": 21
+  },
+  "specialists_registered": [
+    "apple",
+    "corn",
+    "grape",
+    "pepper",
+    "potato",
+    "tomato"
+  ],
+  "per_image": [
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\20180511_090912-14gtw8a-e1526047952754.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.7732,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\20180511_091133-24l1vhg-e1526047988236.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9952,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\20180511_091252-1gy5xf5-e1526048000596.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9972,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\4120978-single-green-leaf-of-apple-tree.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9996,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\apple-leaf-14319997.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9994,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\apple-leaf-9834637.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9925,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\apple-leaf-closeup-37636177.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9997,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\apple-leaf-isolated-white-background-56631026.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.9999,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple leaf\\Apple-Leaf-Wallpaper-17.jpg",
+      "true_label": "apple__healthy",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.8603,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\02.-Rust-2017-207u24s.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.8936,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\0605_Rust-induced_leafspot.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.9474,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\185161-004-EAF28842.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.999,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\2011-011.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.6904,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\20130519cedarapplerust.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.9997,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\20130610_110514.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.6151,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\20130802_111632.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.7775,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\4-apple-rust2_19011_matt-bertone.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.9873,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\9343310-small.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.6548,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple rust leaf\\99e886623c2080c22f6519b0e708c531.jpg",
+      "true_label": "apple__cedar_apple_rust",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.9874,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9999,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.7483,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\28-500x375.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9978,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\816.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.5147,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\apple%20scab%20leaf.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9375,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\apple%20scabnew.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__healthy",
+      "confidence": 0.7619,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\apple-scab-5366820.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9976,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\apples_apple-scab_01_zoom.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9965,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\apples_apple-scab_02_thm.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9989,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Apple Scab Leaf\\apples_apple-scab_10_zoom.jpg",
+      "true_label": "apple__apple_scab",
+      "predicted_label": "apple__apple_scab",
+      "confidence": 0.9148,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\10148582-green-leaf-of-pepper.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "tomato__healthy",
+      "confidence": 0.9504,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\4825902504_5fa80b65b8_z.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "tomato__healthy",
+      "confidence": 0.9665,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\e33155.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.996,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.9944,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\IMG_1629.JPG_1507122477.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.823,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\pepper_leaf.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.9559,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\RnGnC.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.9992,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf\\why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+      "true_label": "pepper__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.7109,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\00.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 0.9991,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\000.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.5057,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\01.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "tomato__bacterial_spot",
+      "confidence": 0.3666,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\Bacterial-spot-pepper2.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\bacterial_leaf_spot_pepper_l.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 0.9987,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.895,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\H5w92.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 0.9448,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\pepper-spot.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 0.9626,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Bell_pepper leaf spot\\pepper_bacterial-spot_03_zoom.jpg",
+      "true_label": "pepper__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 0.9997,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn Gray leaf spot\\IMG_42231.jpg",
+      "true_label": "corn__gray_leaf_spot",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.9298,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn Gray leaf spot\\rsz0803Figure6.jpg",
+      "true_label": "corn__gray_leaf_spot",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.9651,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn Gray leaf spot\\show_picture.asp_id=aaaaaaaaaaogcqq&w2=420&h2=378&clip=center,420,378&meta=0.jpg",
+      "true_label": "corn__gray_leaf_spot",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.8537,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn Gray leaf spot\\strom5.jpg",
+      "true_label": "corn__gray_leaf_spot",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.5648,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\02c.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.9938,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\0796.20graylssymt.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.7081,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\07c.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.7162,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\0c.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.9974,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\1321189.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.8446,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\160314_web.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.994,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.4942,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\2015070295153021.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.7554,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\Common%20Diseases%20Figure%201.JPG.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.8523,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\corn-disease-update-fig-3-gray-leaf-spot.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.6974,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\corn-gray-leaf-spot-f4.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.8779,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn leaf blight\\Corn-SCLB-2017-1.jpg",
+      "true_label": "corn__northern_leaf_blight",
+      "predicted_label": "corn__northern_leaf_blight",
+      "confidence": 0.5861,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\0796.39maizerust.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9944,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\0796.40comrust.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.981,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\0796.47southrust.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9098,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\0796.52srusttelia.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__gray_leaf_spot",
+      "confidence": 0.5751,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\12-19striprustJIM.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9003,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\1355.50commonrust.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9991,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\2256-body-1501555581-1.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9952,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\393.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9965,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\5496239405_d95bdb97d1_z.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.9843,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Corn rust leaf\\80104747.jpg",
+      "true_label": "corn__common_rust",
+      "predicted_label": "corn__common_rust",
+      "confidence": 0.8316,
+      "cascade_used": true,
+      "cascade_route": "ensemble_corn_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\0000.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.9985,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.9973,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\depositphotos_6898486-stock-photo-grape-leaves.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\DSCN7317.JPG.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.837,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\grape-leaf-14309623.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.9996,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\grape-leaf-picture-id119212425_k=6&m=119212425&s=612x612&w=0&h=8RZBWGcvXe4tAwhhvYZVFzWyRyiN5iTxKfWBpPT1FcU=.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\grapes-leaves.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\grapevine-leaf-7466071.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.9995,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\latest_cb=20100621160325.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\P1130286.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.9743,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf\\vitis-riparia-le-ahaines-b.jpg",
+      "true_label": "grape__healthy",
+      "predicted_label": "grape__healthy",
+      "confidence": 0.9969,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\03gb.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.9819,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\35589125035_662dd5b258_b.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.9978,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\5-29black-rot-chardRR.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__esca_black_measles",
+      "confidence": 0.7722,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\Black%20rot%20on%20foliage.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.6174,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\Black%20rot%20on%20foliage2.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.8962,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\brleaf2_zoom.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.9864,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\grape_F15a.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "apple__cedar_apple_rust",
+      "confidence": 0.9641,
+      "cascade_used": true,
+      "cascade_route": "ensemble_apple_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\grape leaf black rot\\piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+      "true_label": "grape__black_rot",
+      "predicted_label": "grape__black_rot",
+      "confidence": 0.9905,
+      "cascade_used": true,
+      "cascade_route": "ensemble_grape_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\3023.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.6176,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\backus-056-potato-blight.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.8369,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.8131,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.9515,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\earlyblightpotato.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.9804,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.7386,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.9382,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf early blight\\potatobd001.jpg",
+      "true_label": "potato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.3354,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\1421_0.jpeg_itok=FMtmgePj.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.8555,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\20090710-lateblight.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "tomato__late_blight",
+      "confidence": 0.4231,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\2540_600.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.5015,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "tomato__late_blight",
+      "confidence": 0.9799,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.5227,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.6692,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\LateBlight04.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.8107,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Potato leaf late blight\\potato-late-blight.jpg",
+      "true_label": "potato__late_blight",
+      "predicted_label": "potato__early_blight",
+      "confidence": 0.6787,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\039b47d574bc4bb8a14259a1cd96a741.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.2886,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\100983448.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.6134,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\1234080-Early-Blight.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4497,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\bugs-and-blight-061.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.5508,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\dscn3175.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.9285,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\early_blight1-150x150.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.9746,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\earlyblight21_.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.7849,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\Shoemaker_7068.JPG.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4253,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Early blight leaf\\tomato_early-blight_01_zoom.jpg",
+      "true_label": "tomato__early_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.8446,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\1684.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "tomato__healthy",
+      "confidence": 0.9912,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\2013-08-20-06.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.7911,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\90e2c0.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.3355,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\DSCN1015.JPG.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "pepper__healthy",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\IMG_1246.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "tomato__healthy",
+      "confidence": 0.6337,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "tomato__healthy",
+      "confidence": 0.993,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\Tomato59.JPG.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4962,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf\\Tomato_leaf.jpg",
+      "true_label": "tomato__healthy",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.715,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\%2320+Bacterial+Spot+and+Speck.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.3019,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.7064,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\bact-spot-fig-1.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 1.0,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\Bacterial_spots563.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "pepper__bacterial_spot",
+      "confidence": 0.9685,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\Tom_Bact3.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.4375,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\Tom_Bact7.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4844,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.693,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\tomato_bacterial-speck_01_zoom.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.7383,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf bacterial spot\\tomato_V8.jpg",
+      "true_label": "tomato__bacterial_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.9247,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\110822-206-Tomato-blight.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "tomato__late_blight",
+      "confidence": 0.9979,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\18c.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.8061,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\636368370164094909-late-blight-15-.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "tomato__late_blight",
+      "confidence": 0.9641,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\70.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.3474,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\dsc_8148cs.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.8131,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\E%29Tomato-late-blight-foliar.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.5911,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\image.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4063,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\IMG_5808.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4594,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\late_blight_tomato_leaf_spore1x1200.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "tomato__late_blight",
+      "confidence": 0.9835,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf late blight\\LateBlt09_06.jpg",
+      "true_label": "tomato__late_blight",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.6947,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\9511.img.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.4443,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\D%29AlfMov.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "tomato__mosaic_virus",
+      "confidence": 0.9936,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\everystockphoto-21099455-l.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "tomato__mosaic_virus",
+      "confidence": 0.6788,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.7495,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\page_2.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.3908,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\tmv-tomato-34.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4475,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\tmv-tomato-9.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "tomato__late_blight",
+      "confidence": 0.5821,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\toma_TMV.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4787,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\Tomato-Mosaic-1wdr2jx-300x225.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.8904,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf mosaic virus\\tomato_virus_04_zoom.jpg",
+      "true_label": "tomato__mosaic_virus",
+      "predicted_label": "pepper__healthy",
+      "confidence": 0.9674,
+      "cascade_used": true,
+      "cascade_route": "ensemble_pepper_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf yellow virus\\11-40580_5.jpg",
+      "true_label": "tomato__yellow_leaf_curl_virus",
+      "predicted_label": "tomato__yellow_leaf_curl_virus",
+      "confidence": 0.9674,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf yellow virus\\17fc47.jpg",
+      "true_label": "tomato__yellow_leaf_curl_virus",
+      "predicted_label": "tomato__healthy",
+      "confidence": 0.6771,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf yellow virus\\8226402877_9abf151b5b_b.jpg",
+      "true_label": "tomato__yellow_leaf_curl_virus",
+      "predicted_label": "tomato__yellow_leaf_curl_virus",
+      "confidence": 0.4874,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf yellow virus\\fwa2013313115151.jpg",
+      "true_label": "tomato__yellow_leaf_curl_virus",
+      "predicted_label": "tomato__yellow_leaf_curl_virus",
+      "confidence": 0.7309,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf yellow virus\\glyphosate.jpg",
+      "true_label": "tomato__yellow_leaf_curl_virus",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4152,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato leaf yellow virus\\tylcv-seminar-1-638.jpg",
+      "true_label": "tomato__yellow_leaf_curl_virus",
+      "predicted_label": "tomato__yellow_leaf_curl_virus",
+      "confidence": 0.4899,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato mold leaf\\49%20Leafmold%20Bottom.jpg",
+      "true_label": "tomato__leaf_mold",
+      "predicted_label": "potato__late_blight",
+      "confidence": 0.7125,
+      "cascade_used": true,
+      "cascade_route": "ensemble_potato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato mold leaf\\50%20Leafmold%20Top.jpg",
+      "true_label": "tomato__leaf_mold",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.6352,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato mold leaf\\BIGSD.jpg",
+      "true_label": "tomato__leaf_mold",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.7627,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato mold leaf\\black_leaf_mold_in_zina_tina.jpg",
+      "true_label": "tomato__leaf_mold",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.3041,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato mold leaf\\dscn6689.jpg",
+      "true_label": "tomato__leaf_mold",
+      "predicted_label": "tomato__leaf_mold",
+      "confidence": 0.9936,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato mold leaf\\fungus-univ-of-minnesoeta.jpg",
+      "true_label": "tomato__leaf_mold",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.7752,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\0.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.4659,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\2septoria-tomato.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.9378,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\2STEM.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.9216,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\55830b60a7cf2.image.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.4282,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\6134794031202304.jpeg.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.5883,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\636227737977191231-septoria-leaf-spot-VT.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.7832,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\6447731_orig.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "unknown_leaf_crop",
+      "confidence": 0.3134,
+      "cascade_used": false,
+      "cascade_route": "low_confidence_below_0.50",
+      "correct": false
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\7-17-Photo3_Septoria-MARY.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.685,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\early-blight-septoria-ls-fig-3.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.8873,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\RARZ4.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__septoria_leaf_spot",
+      "confidence": 0.4825,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": true
+    },
+    {
+      "image": "datasets\\plant\\plantdoc\\test\\Tomato Septoria leaf spot\\sept4disease-019.jpg",
+      "true_label": "tomato__septoria_leaf_spot",
+      "predicted_label": "tomato__early_blight",
+      "confidence": 0.6104,
+      "cascade_used": true,
+      "cascade_route": "ensemble_tomato_specialist_plus_unified",
+      "correct": false
+    }
+  ]
+}

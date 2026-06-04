@@ -1,0 +1,319 @@
+{
+  "output_name": "apple_specialist_v2_overnight",
+  "checkpoint_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\checkpoints\\apple_specialist_v2_overnight.pt",
+  "production_model_path": null,
+  "device": "cuda",
+  "controlled_test": {
+    "accuracy": 0.9748427672955975,
+    "macro_f1": 0.9755464461720537,
+    "classification_report": {
+      "apple__apple_scab": {
+        "precision": 0.9836065573770492,
+        "recall": 0.9523809523809523,
+        "f1-score": 0.967741935483871,
+        "support": 63.0
+      },
+      "apple__black_rot": {
+        "precision": 0.9538461538461539,
+        "recall": 1.0,
+        "f1-score": 0.9763779527559056,
+        "support": 62.0
+      },
+      "apple__cedar_apple_rust": {
+        "precision": 0.9655172413793104,
+        "recall": 1.0,
+        "f1-score": 0.9824561403508771,
+        "support": 28.0
+      },
+      "apple__healthy": {
+        "precision": 0.9815950920245399,
+        "recall": 0.9696969696969697,
+        "f1-score": 0.975609756097561,
+        "support": 165.0
+      },
+      "accuracy": 0.9748427672955975,
+      "macro avg": {
+        "precision": 0.9711412611567634,
+        "recall": 0.9805194805194806,
+        "f1-score": 0.9755464461720537,
+        "support": 318.0
+      },
+      "weighted avg": {
+        "precision": 0.9751677597354886,
+        "recall": 0.9748427672955975,
+        "f1-score": 0.9748036373970823,
+        "support": 318.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        60,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        62,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0
+      ],
+      [
+        1,
+        3,
+        1,
+        160
+      ]
+    ],
+    "loss": 0.023065983466463786
+  },
+  "field_test": {
+    "accuracy": 0.7586206896551724,
+    "macro_f1": 0.7507575757575758,
+    "classification_report": {
+      "apple__apple_scab": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1-score": 0.7272727272727273,
+        "support": 10.0
+      },
+      "apple__black_rot": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "apple__cedar_apple_rust": {
+        "precision": 0.8333333333333334,
+        "recall": 0.5,
+        "f1-score": 0.625,
+        "support": 10.0
+      },
+      "apple__healthy": {
+        "precision": 0.8181818181818182,
+        "recall": 1.0,
+        "f1-score": 0.9,
+        "support": 9.0
+      },
+      "accuracy": 0.7586206896551724,
+      "macro avg": {
+        "precision": 0.5795454545454546,
+        "recall": 0.575,
+        "f1-score": 0.5630681818181819,
+        "support": 29.0
+      },
+      "weighted avg": {
+        "precision": 0.7711598746081505,
+        "recall": 0.7586206896551724,
+        "f1-score": 0.7456112852664577,
+        "support": 29.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        8,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        0,
+        5,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    "loss": 0.4829496529569512
+  },
+  "history": [
+    {
+      "stage": "stage1_controlled",
+      "epoch": 1,
+      "train_loss": 1.2362902790520467,
+      "val_loss": 0.4715726006436311,
+      "val_accuracy": 0.842436974789916,
+      "val_macro_f1": 0.822552760114698
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 2,
+      "train_loss": 0.24086806838414587,
+      "val_loss": 0.039492718994436175,
+      "val_accuracy": 0.957983193277311,
+      "val_macro_f1": 0.9459634741355641
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 3,
+      "train_loss": 0.09414761779632987,
+      "val_loss": 0.04572871303166624,
+      "val_accuracy": 0.9558823529411765,
+      "val_macro_f1": 0.9401022059752074
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 4,
+      "train_loss": 0.056077159891456056,
+      "val_loss": 0.03245487106535975,
+      "val_accuracy": 0.9726890756302521,
+      "val_macro_f1": 0.9699761733009815
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 5,
+      "train_loss": 0.022646150649003438,
+      "val_loss": 0.015328685802709009,
+      "val_accuracy": 0.9831932773109243,
+      "val_macro_f1": 0.9812513987764231
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 6,
+      "train_loss": 0.008963864219232918,
+      "val_loss": 0.02682623134959538,
+      "val_accuracy": 0.9516806722689075,
+      "val_macro_f1": 0.9509262444569064
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 7,
+      "train_loss": 0.013668264943729292,
+      "val_loss": 0.024216617469680617,
+      "val_accuracy": 0.9600840336134454,
+      "val_macro_f1": 0.966632275947028
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 8,
+      "train_loss": 0.009591008508173886,
+      "val_loss": 0.008634773200564392,
+      "val_accuracy": 0.9873949579831933,
+      "val_macro_f1": 0.9890440386680988
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 9,
+      "train_loss": 0.006851093150518957,
+      "val_loss": 0.005197818982743081,
+      "val_accuracy": 0.9873949579831933,
+      "val_macro_f1": 0.9891137295081968
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 10,
+      "train_loss": 0.006226602324431288,
+      "val_loss": 0.013120848112476309,
+      "val_accuracy": 0.9726890756302521,
+      "val_macro_f1": 0.9730161635503493
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 11,
+      "train_loss": 0.005255730786039746,
+      "val_loss": 0.018622003680192418,
+      "val_accuracy": 0.9747899159663865,
+      "val_macro_f1": 0.9615166420435389
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 12,
+      "train_loss": 0.005364900002757158,
+      "val_loss": 0.0038269675893784602,
+      "val_accuracy": 0.9873949579831933,
+      "val_macro_f1": 0.9865367590494803
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 13,
+      "train_loss": 0.007175040682553047,
+      "val_loss": 0.01106142300783063,
+      "val_accuracy": 0.9705882352941176,
+      "val_macro_f1": 0.9636548211697671
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 1,
+      "train_loss": 0.41977028485193907,
+      "val_loss": 0.035136740015550026,
+      "val_accuracy": 0.9495798319327731,
+      "val_macro_f1": 0.9556590379473873
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 2,
+      "train_loss": 0.24758478845122578,
+      "val_loss": 0.16139928304772483,
+      "val_accuracy": 0.8529411764705882,
+      "val_macro_f1": 0.8692941372358615
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 3,
+      "train_loss": 0.183541934099434,
+      "val_loss": 0.03715596240077242,
+      "val_accuracy": 0.9432773109243697,
+      "val_macro_f1": 0.9351245202399432
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 4,
+      "train_loss": 0.13162334274805085,
+      "val_loss": 0.011294023847776991,
+      "val_accuracy": 0.9894957983193278,
+      "val_macro_f1": 0.9908404185389929
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 5,
+      "train_loss": 0.10335332072361585,
+      "val_loss": 0.02348551121635398,
+      "val_accuracy": 0.9705882352941176,
+      "val_macro_f1": 0.974420491920492
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 6,
+      "train_loss": 0.07714541564636877,
+      "val_loss": 0.021493377336319713,
+      "val_accuracy": 0.9705882352941176,
+      "val_macro_f1": 0.9716325683027718
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 7,
+      "train_loss": 0.06929568833971346,
+      "val_loss": 0.0142472916809504,
+      "val_accuracy": 0.9789915966386554,
+      "val_macro_f1": 0.9785696176138099
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 8,
+      "train_loss": 0.09973273411426442,
+      "val_loss": 0.007196652151888697,
+      "val_accuracy": 0.9894957983193278,
+      "val_macro_f1": 0.9908404185389929
+    }
+  ],
+  "summary_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\apple_specialist_v2_overnight_training_summary.json",
+  "controlled_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\apple_specialist_v2_overnight_controlled_test_metrics.json",
+  "field_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\apple_specialist_v2_overnight_field_test_metrics.json"
+}

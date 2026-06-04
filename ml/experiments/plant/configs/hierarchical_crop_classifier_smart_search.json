@@ -1,0 +1,38 @@
+{
+  "models": [
+    "tf_efficientnetv2_s",
+    "resnet50",
+    "efficientnet_b0",
+    "mobilenetv3_large_100"
+  ],
+  "search_strategy": "coarse_to_fine",
+  "shortlist_size": 2,
+  "screen_overrides": {
+    "image_size": 224,
+    "epochs_stage1": 3,
+    "epochs_stage2": 2,
+    "early_stopping_patience": 1
+  },
+  "image_size": 288,
+  "batch_size": 6,
+  "epochs_stage1": 8,
+  "epochs_stage2": 6,
+  "learning_rate_stage1": 0.0003,
+  "learning_rate_stage2": 0.00008,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "seed": 42,
+  "confidence_threshold": 0.65,
+  "grad_accumulation_steps": 3,
+  "early_stopping_patience": 3,
+  "target_column": "crop",
+  "input_mode": "leaf_context",
+  "augmentation_profile": "field_heavy",
+  "roi_cache_dir": "ml/plant/artifacts/roi_cache/hierarchical/crop_classifier",
+  "field_source_boost": 4.0,
+  "stage2_controlled_fraction": 0.08,
+  "loss_name": "focal",
+  "focal_gamma": 1.5,
+  "tag": "hierarchical_crop_id_smart_search",
+  "promote_best": false
+}

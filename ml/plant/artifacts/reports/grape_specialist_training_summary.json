@@ -1,0 +1,295 @@
+{
+  "output_name": "grape_specialist",
+  "checkpoint_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\checkpoints\\grape_specialist.pt",
+  "production_model_path": null,
+  "device": "cuda",
+  "controlled_test": {
+    "accuracy": 0.9852579852579852,
+    "macro_f1": 0.9871674903328636,
+    "classification_report": {
+      "grape__black_rot": {
+        "precision": 0.991304347826087,
+        "recall": 0.9661016949152542,
+        "f1-score": 0.9785407725321889,
+        "support": 118.0
+      },
+      "grape__esca_black_measles": {
+        "precision": 1.0,
+        "recall": 0.9856115107913669,
+        "f1-score": 0.9927536231884058,
+        "support": 139.0
+      },
+      "grape__healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 42.0
+      },
+      "grape__leaf_blight": {
+        "precision": 0.9557522123893806,
+        "recall": 1.0,
+        "f1-score": 0.9773755656108597,
+        "support": 108.0
+      },
+      "accuracy": 0.9852579852579852,
+      "macro avg": {
+        "precision": 0.9867641400538669,
+        "recall": 0.9879283014266553,
+        "f1-score": 0.9871674903328636,
+        "support": 407.0
+      },
+      "weighted avg": {
+        "precision": 0.9857374741560967,
+        "recall": 0.9852579852579852,
+        "f1-score": 0.9853000635576401,
+        "support": 407.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        114,
+        0,
+        0,
+        4
+      ],
+      [
+        1,
+        137,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        42,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        108
+      ]
+    ],
+    "loss": 0.007211587387426149
+  },
+  "field_test": {
+    "accuracy": 0.9,
+    "macro_f1": 0.4642857142857143,
+    "classification_report": {
+      "grape__black_rot": {
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1-score": 0.8571428571428571,
+        "support": 8.0
+      },
+      "grape__esca_black_measles": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "grape__healthy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "grape__leaf_blight": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 0.9,
+      "macro avg": {
+        "precision": 0.5,
+        "recall": 0.4375,
+        "f1-score": 0.4642857142857143,
+        "support": 20.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1-score": 0.9428571428571428,
+        "support": 20.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "loss": 0.12414685428957455
+  },
+  "history": [
+    {
+      "stage": "stage1_controlled",
+      "epoch": 1,
+      "train_loss": 0.7315163316143808,
+      "val_loss": 0.1208470511683739,
+      "val_accuracy": 0.9524590163934427,
+      "val_macro_f1": 0.961581870359028
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 2,
+      "train_loss": 0.08905368008739875,
+      "val_loss": 0.07833008936618803,
+      "val_accuracy": 0.9672131147540983,
+      "val_macro_f1": 0.9724583983901572
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 3,
+      "train_loss": 0.057056344780961006,
+      "val_loss": 0.1900814204060223,
+      "val_accuracy": 0.9114754098360656,
+      "val_macro_f1": 0.8878746208755722
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 4,
+      "train_loss": 0.02208850407102027,
+      "val_loss": 0.01088581786440075,
+      "val_accuracy": 0.9918032786885246,
+      "val_macro_f1": 0.9905969225441529
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 5,
+      "train_loss": 0.01915274066912283,
+      "val_loss": 0.019613901182035275,
+      "val_accuracy": 0.9852459016393442,
+      "val_macro_f1": 0.9796019703846585
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 6,
+      "train_loss": 0.011565196953779461,
+      "val_loss": 0.009818983873093264,
+      "val_accuracy": 0.9901639344262295,
+      "val_macro_f1": 0.9883467767655041
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 7,
+      "train_loss": 0.012848512302855341,
+      "val_loss": 0.008927907218607482,
+      "val_accuracy": 0.9934426229508196,
+      "val_macro_f1": 0.9933527084079952
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 8,
+      "train_loss": 0.0028529852545788156,
+      "val_loss": 0.003989095693892971,
+      "val_accuracy": 0.9934426229508196,
+      "val_macro_f1": 0.9946979813897966
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 9,
+      "train_loss": 0.0026469368982985205,
+      "val_loss": 0.01880513729381111,
+      "val_accuracy": 0.978688524590164,
+      "val_macro_f1": 0.9711976119628449
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 10,
+      "train_loss": 0.0029851360170933695,
+      "val_loss": 0.005292377645701349,
+      "val_accuracy": 0.9918032786885246,
+      "val_macro_f1": 0.9905969225441529
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 11,
+      "train_loss": 0.0020039101459596656,
+      "val_loss": 0.003933667122079934,
+      "val_accuracy": 0.9967213114754099,
+      "val_macro_f1": 0.9945913461538461
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 12,
+      "train_loss": 0.0017983024408935154,
+      "val_loss": 0.006117988574816859,
+      "val_accuracy": 0.9950819672131147,
+      "val_macro_f1": 0.9932149879171611
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 1,
+      "train_loss": 0.42730393872926736,
+      "val_loss": 0.04185521176125677,
+      "val_accuracy": 0.9836065573770492,
+      "val_macro_f1": 0.983825793601977
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 2,
+      "train_loss": 0.1604714585745699,
+      "val_loss": 0.009517874392017619,
+      "val_accuracy": 0.9901639344262295,
+      "val_macro_f1": 0.9901567957236562
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 3,
+      "train_loss": 0.07666177962855594,
+      "val_loss": 0.05578131924083698,
+      "val_accuracy": 0.9590163934426229,
+      "val_macro_f1": 0.9417410503673417
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 4,
+      "train_loss": 0.13230798135881533,
+      "val_loss": 0.027776127150902833,
+      "val_accuracy": 0.9737704918032787,
+      "val_macro_f1": 0.9632971954617082
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 5,
+      "train_loss": 0.058499219105631106,
+      "val_loss": 0.02030347749288022,
+      "val_accuracy": 0.9885245901639345,
+      "val_macro_f1": 0.9855134370213277
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 6,
+      "train_loss": 0.08494259843572637,
+      "val_loss": 0.0127786547122077,
+      "val_accuracy": 0.9901639344262295,
+      "val_macro_f1": 0.9868189102564102
+    }
+  ],
+  "summary_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\grape_specialist_training_summary.json",
+  "controlled_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\grape_specialist_controlled_test_metrics.json",
+  "field_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\grape_specialist_field_test_metrics.json"
+}

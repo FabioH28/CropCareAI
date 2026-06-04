@@ -1,0 +1,29 @@
+{
+  "models": [
+    "convnext_base.fb_in22k_ft_in1k_384",
+    "tf_efficientnetv2_m"
+  ],
+  "image_size": 384,
+  "batch_size": 16,
+  "epochs_stage1": 20,
+  "epochs_stage2": 12,
+  "learning_rate_stage1": 0.0002,
+  "learning_rate_stage2": 0.00005,
+  "weight_decay": 0.0002,
+  "num_workers": 8,
+  "seed": 42,
+  "confidence_threshold": 0.65,
+  "grad_accumulation_steps": 1,
+  "early_stopping_patience": 5,
+  "target_column": "canonical_label",
+  "crop_filter": "apple",
+  "input_mode": "leaf_isolated",
+  "augmentation_profile": "field_heavy",
+  "roi_cache_dir": "ml/plant/artifacts/roi_cache/cloud_apple_sota",
+  "field_source_boost": 5.0,
+  "stage2_controlled_fraction": 0.10,
+  "loss_name": "focal",
+  "focal_gamma": 2.0,
+  "tag": "cloud_apple_sota",
+  "promote_best": false
+}

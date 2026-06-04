@@ -1,0 +1,303 @@
+{
+  "output_name": "corn_specialist",
+  "checkpoint_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\checkpoints\\corn_specialist.pt",
+  "production_model_path": null,
+  "device": "cuda",
+  "controlled_test": {
+    "accuracy": 0.9067357512953368,
+    "macro_f1": 0.8709632402565866,
+    "classification_report": {
+      "corn__common_rust": {
+        "precision": 0.9821428571428571,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.9482758620689655,
+        "support": 120.0
+      },
+      "corn__gray_leaf_spot": {
+        "precision": 0.7111111111111111,
+        "recall": 0.6274509803921569,
+        "f1-score": 0.6666666666666666,
+        "support": 51.0
+      },
+      "corn__healthy": {
+        "precision": 1.0,
+        "recall": 0.9913793103448276,
+        "f1-score": 0.9956709956709957,
+        "support": 116.0
+      },
+      "corn__northern_leaf_blight": {
+        "precision": 0.8157894736842105,
+        "recall": 0.9393939393939394,
+        "f1-score": 0.8732394366197183,
+        "support": 99.0
+      },
+      "accuracy": 0.9067357512953368,
+      "macro avg": {
+        "precision": 0.8772608604845447,
+        "recall": 0.8687227241993976,
+        "f1-score": 0.8709632402565866,
+        "support": 386.0
+      },
+      "weighted avg": {
+        "precision": 0.9090335943485657,
+        "recall": 0.9067357512953368,
+        "f1-score": 0.9060664330866931,
+        "support": 386.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        110,
+        7,
+        0,
+        3
+      ],
+      [
+        1,
+        32,
+        0,
+        18
+      ],
+      [
+        1,
+        0,
+        115,
+        0
+      ],
+      [
+        0,
+        6,
+        0,
+        93
+      ]
+    ],
+    "loss": 0.07538997354331993
+  },
+  "field_test": {
+    "accuracy": 0.6923076923076923,
+    "macro_f1": 0.6491228070175438,
+    "classification_report": {
+      "corn__common_rust": {
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1-score": 0.9473684210526315,
+        "support": 10.0
+      },
+      "corn__gray_leaf_spot": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1-score": 0.3333333333333333,
+        "support": 4.0
+      },
+      "corn__healthy": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "corn__northern_leaf_blight": {
+        "precision": 0.7777777777777778,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.6666666666666666,
+        "support": 12.0
+      },
+      "accuracy": 0.6923076923076923,
+      "macro avg": {
+        "precision": 0.5069444444444444,
+        "recall": 0.49583333333333335,
+        "f1-score": 0.48684210526315785,
+        "support": 26.0
+      },
+      "weighted avg": {
+        "precision": 0.7820512820512822,
+        "recall": 0.6923076923076923,
+        "f1-score": 0.7233468286099866,
+        "support": 26.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        5,
+        0,
+        7
+      ]
+    ],
+    "loss": 0.5047996330719727
+  },
+  "history": [
+    {
+      "stage": "stage1_controlled",
+      "epoch": 1,
+      "train_loss": 1.095907968829074,
+      "val_loss": 0.3390418853852912,
+      "val_accuracy": 0.9117647058823529,
+      "val_macro_f1": 0.8878679314503298
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 2,
+      "train_loss": 0.2559925694669486,
+      "val_loss": 0.1824790587682943,
+      "val_accuracy": 0.9186851211072664,
+      "val_macro_f1": 0.8953413938330952
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 3,
+      "train_loss": 0.14983105254918067,
+      "val_loss": 0.09650991471227104,
+      "val_accuracy": 0.9636678200692042,
+      "val_macro_f1": 0.9482430849003034
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 4,
+      "train_loss": 0.09600549331738628,
+      "val_loss": 0.06702429757515249,
+      "val_accuracy": 0.9429065743944637,
+      "val_macro_f1": 0.9245101510053351
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 5,
+      "train_loss": 0.06664427195643766,
+      "val_loss": 0.06579295104505804,
+      "val_accuracy": 0.9377162629757786,
+      "val_macro_f1": 0.9176548270534778
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 6,
+      "train_loss": 0.044918764474220205,
+      "val_loss": 0.06388940414353711,
+      "val_accuracy": 0.967128027681661,
+      "val_macro_f1": 0.95632726322171
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 7,
+      "train_loss": 0.03652455291073092,
+      "val_loss": 0.05466283178554288,
+      "val_accuracy": 0.9792387543252595,
+      "val_macro_f1": 0.9714226492689491
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 8,
+      "train_loss": 0.029976726602064574,
+      "val_loss": 0.05347196820773879,
+      "val_accuracy": 0.9740484429065744,
+      "val_macro_f1": 0.9648853775193224
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 9,
+      "train_loss": 0.03078358181785603,
+      "val_loss": 0.03735365370719926,
+      "val_accuracy": 0.9584775086505191,
+      "val_macro_f1": 0.942267352800993
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 10,
+      "train_loss": 0.023369981653602535,
+      "val_loss": 0.04082484399576179,
+      "val_accuracy": 0.972318339100346,
+      "val_macro_f1": 0.961592657987345
+    },
+    {
+      "stage": "stage1_controlled",
+      "epoch": 11,
+      "train_loss": 0.017179988570677276,
+      "val_loss": 0.04500700904586266,
+      "val_accuracy": 0.972318339100346,
+      "val_macro_f1": 0.9641439316266309
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 1,
+      "train_loss": 0.7040646870810633,
+      "val_loss": 0.1104291518916418,
+      "val_accuracy": 0.8598615916955017,
+      "val_macro_f1": 0.824066010381322
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 2,
+      "train_loss": 0.30644994705799034,
+      "val_loss": 0.07053875408217235,
+      "val_accuracy": 0.9100346020761245,
+      "val_macro_f1": 0.8797081369372023
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 3,
+      "train_loss": 0.2644111509551294,
+      "val_loss": 0.07153202332108204,
+      "val_accuracy": 0.9152249134948097,
+      "val_macro_f1": 0.8913149780183993
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 4,
+      "train_loss": 0.21279799113981426,
+      "val_loss": 0.07255747435137545,
+      "val_accuracy": 0.9256055363321799,
+      "val_macro_f1": 0.8993153468796122
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 5,
+      "train_loss": 0.18850105644232826,
+      "val_loss": 0.06098357914448113,
+      "val_accuracy": 0.9221453287197232,
+      "val_macro_f1": 0.8987689498561872
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 6,
+      "train_loss": 0.1727560593324597,
+      "val_loss": 0.05671900833764235,
+      "val_accuracy": 0.9307958477508651,
+      "val_macro_f1": 0.9095713193764619
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 7,
+      "train_loss": 0.17320293972297804,
+      "val_loss": 0.054113666996940535,
+      "val_accuracy": 0.9394463667820069,
+      "val_macro_f1": 0.9186590392146803
+    },
+    {
+      "stage": "stage2_field_finetune",
+      "epoch": 8,
+      "train_loss": 0.18738565531311907,
+      "val_loss": 0.05323577271665126,
+      "val_accuracy": 0.9359861591695502,
+      "val_macro_f1": 0.9179174141127402
+    }
+  ],
+  "summary_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\corn_specialist_training_summary.json",
+  "controlled_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\corn_specialist_controlled_test_metrics.json",
+  "field_metrics_path": "C:\\Users\\Admin\\Desktop\\School Projects\\Farm Plant Disease Detection and Treatment Advisor\\ml\\plant\\artifacts\\reports\\corn_specialist_field_test_metrics.json"
+}
