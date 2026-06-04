@@ -1,6 +1,6 @@
 # CropCare AI
 
-**Plant Disease Detection & Treatment Advisor** — a full-stack computer-vision system that takes one leaf photo and returns the **crop**, the **disease**, the **severity**, and **how to treat it**. It pairs a hand-built classical CV pipeline that *measures* the disease with a deep-learning cascade that *names* it and a local LLM that *explains* it.
+**Plant Disease Detection & Treatment Advisor** -> a full-stack computer-vision system that takes one leaf photo and returns the **crop**, the **disease**, the **severity**, and **how to treat it**. It pairs a hand-built classical CV pipeline that *measures* the disease with a deep-learning cascade that *names* it and a local LLM that *explains* it.
 
 > **The AI names the disease · the CV pipeline measures the severity · the LLM writes the advice.**
 
