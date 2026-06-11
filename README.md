@@ -12,10 +12,6 @@
 - **Research-grade evaluation.** Separate lab/field test sets, a naive-transfer baseline, 95% confidence intervals, a calibration measurement, and a foundation-model (SAM) segmentation benchmark.
 - **Deployed end-to-end.** React frontend · FastAPI backend · MariaDB · local Ollama LLM advisory.
 
-## Start here
-
-Open **[demo.ipynb](demo.ipynb)** — a single notebook that runs the entire pipeline (DIP → segmentation → DL cascade → LLM advice) on a diseased leaf with inline visualizations. All numbers below are measured and saved as JSON under [ml/plant/artifacts/reports/](ml/plant/artifacts/reports/).
-
 ## Results
 
 ### Field accuracy — the cascade more than doubles it
