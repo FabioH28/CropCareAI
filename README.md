@@ -28,9 +28,6 @@
 | Potato | 6.2% | **25.0%** | [10.2–49.5%] |
 | **Overall** | **24.3%** | **58.8%** | **[51.4–65.7%]** |
 
-The cascade's confidence interval lies **entirely above** the unified model's, so the improvement is statistically significant (Wilson + 20k-bootstrap, reproducible via [scripts/compute_statistical_rigor.py](scripts/compute_statistical_rigor.py)).
-
-![Per-crop field accuracy with 95% CIs](ml/plant/artifacts/reports/figures/cross_crop_accuracy_ci.png)
 
 ### Where the accuracy comes from (apple ablation, n=29)
 
@@ -86,11 +83,6 @@ Helper scripts to launch the stack: [scripts/run-backend.ps1](scripts/run-backen
 
 Python · PyTorch + timm (EfficientNetV2-S) · scikit-learn · SciPy/NumPy/Pillow · Segment Anything · FastAPI · React/Vite/TypeScript · MariaDB · Ollama (llama3.2:3b).
 
-## Future work
-
-- Learned severity head (regression on infected-area %) to replace the CV heuristic.
-- Temperature scaling so the displayed confidence is calibrated.
-- Larger backbone / cloud GPU run (scoped ConvNeXt-Base, expected apple → ~87–90%) to push tomato and the overall ceiling.
 
 ## Folder guide
 
